@@ -29,6 +29,7 @@ export const FormFirstStep: React.FC = () => {
           label="E-mail"
           icon={Envelope}
           placeholder="johndoe@gmail.com"
+          type="email"
           {...register("email")}
           errorMessage={errors.email?.message}
         />
