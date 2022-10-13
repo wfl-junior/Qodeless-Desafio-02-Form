@@ -28,7 +28,7 @@ export const FormSecondStep: React.FC<FormSecondStepProps> = ({
         <Input
           label="Nome"
           icon={User}
-          placeholder="john-doe"
+          placeholder="John Doe"
           {...register("name")}
           errorMessage={errors.name?.message}
         />
